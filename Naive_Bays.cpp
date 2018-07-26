@@ -4,6 +4,8 @@
 #include "opencv2/imgproc.hpp"
 #include <conio.h>
 #include <iostream>
+#include "Naive_Bays.h"
+
 using namespace std;
 using namespace cv;
 
