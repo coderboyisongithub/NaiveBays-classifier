@@ -55,7 +55,7 @@ void main()
 	naiveBays bays(data,classes,6,l);
 	
 	bays.train();
-	bays.pridict(2,-1);
+	bays.pridict(2,-1); 			//predict P(X=-1|X=2) (X=a random variable)i.e probabllity of class '-1' given that class '2' occured...
 	printf("%d bytes",sizeof(naiveBays));
 	
 	_getch();
