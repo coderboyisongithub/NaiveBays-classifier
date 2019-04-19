@@ -14,11 +14,14 @@ RANDOM VARIABLE
  Now here is the data set....
    
     weather= | play=
-		sunny|yes
+	   
+	   sunny|yes
 	   cloudy|no
 	   sunny |yes
 	   cloudy|yes
 	   sunny |yes
 	   cloudy|no
 	   
-So this is the data set over which program is demonstrated....	   
+This data set is available as their respectable value of random varialbe (here 1,2,-1,-2)....
+Until now this can perform probablity estimation between two variable but calculation of conditional probablity for more than two
+conditional event are not possible here..
