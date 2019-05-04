@@ -75,7 +75,7 @@ class naiveBays
 
 	Point2i verifyClass(int ClassId)
 	{
-		//check for lable matrix for verification of feeded class;
+		//check for lable matrix for verification of fed class;
 		//iterating throught lable matrix....
 		for(int r=0;r<t_lables.rows;r++)
 		{
@@ -288,8 +288,8 @@ public:					///PUBLIC SECTIONS
 
 		 /*
 		 Three definition are defined above the program 
-		 000 defines that data feeded to classifier is going to feed numerical data on occurence of events over other(to calculate conditional probablity //POSTERIOR PROBABLITY..//)
-		 001 define that feeded data to classifier is going to feed numerical data on occurence of each event we want to consider here(to calculate prior probablities or evidences probablity)
+		 000 defines that data fed to classifier is going to feed numerical data on occurence of events over other(to calculate conditional probablity //POSTERIOR PROBABLITY..//)
+		 001 define that fed data to classifier is going to feed numerical data on occurence of each event we want to consider here(to calculate prior probablities or evidences probablity)
 		 */
 
 																	 //feed data to class intersection data..
